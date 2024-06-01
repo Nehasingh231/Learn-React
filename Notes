@@ -1,0 +1,23 @@
+ReactElement is just an object and it becomes HTML that browser understands.
+
+npm manages the packages in your  project
+package.json is configuraation for npm it keep tracks of what version of package install in ur system.
+package lock.json keep tracks of exact version off all dependencies,it locks the version and it keeps the record of version
+
+ther are 2 types of dependecncies  when we developing our app then we need dev depeneencies and normal dependencies use in production
+
+node modules contains actual data of dependencies and packags
+if we have package json and package lock json we can recreate our node modules even if it is deleted so we no need to put node modules on github and it is so huge.
+
+# Parcel 
+. Dev Build
+. Local server
+. HMR - Hot Module Replacement(means after changing something in code and save it then it quickly dispay it on browser)
+. Caching - Faster Builds
+. File Watching Algorithm - written in C++
+. Image Optimization
+. Minification
+. Bundling 
+. Error Handling
+. HTTPs
+. Tree Shaking - remove unused code
