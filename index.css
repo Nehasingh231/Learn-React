@@ -1,3 +1,7 @@
-#heading{
-    color: purple;
+.header {
+    display: flex;
+}
+
+.logo img {
+    width: 50px;
 }
