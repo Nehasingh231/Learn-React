@@ -1,4 +1,4 @@
-ReactElement is just an object and it becomes HTML that browser understands.
+ReactElement is just an object and when we do root.render reactDOM takes this object and convert it into html and push it on browser that browser understands.
 
 npm manages the packages in your  project
 package.json is configuraation for npm it keep tracks of what version of package install in ur system.
@@ -21,3 +21,15 @@ if we have package json and package lock json we can recreate our node modules e
 . Error Handling
 . HTTPs
 . Tree Shaking - remove unused code
+
+JSX is not HTML in Js .It is HTML or XML like syntax.
+JS engine doent understads JSX .
+
+Babel is a js compiler or transpiler who converts JSX into code that JS engine understands.
+behind the scene Jsx converts into React.create elemrnt and it comverts into HTMl page and babel is converting JSX into React.createElemet.
+
+when we have one line code written in jSx it is perfectly valid but when we have mltiple lines then we have to write it in parentheses.
+# React Components - 
+  . Class based Components - Old way
+   . Functional Components - New way => its normal js function which returns some piece of JSX code
+                           when we create react componnet nam it with capital letter.
