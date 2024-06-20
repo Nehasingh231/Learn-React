@@ -1,5 +1,8 @@
 ReactElement is just an object and when we do root.render reactDOM takes this object and convert it into html and push it on browser that browser understands.
+creating an element is the core thing of so it comes from React and creating root nd rendering something it comes from react dom
 
+ npm is used for when you want your things to be install inside for your project
+ npx is just exactly npm but it is executing package without downloading it
 npm manages the packages in your  project
 package.json is configuraation for npm it keep tracks of what version of package install in ur system.
 package lock.json keep tracks of exact version off all dependencies,it locks the version and it keeps the record of version
@@ -22,6 +25,7 @@ if we have package json and package lock json we can recreate our node modules e
 . HTTPs
 . Tree Shaking - remove unused code
 
+.jsx is stand for javascrpt xml it  allows us to write HTML in React. jsx is a html like syntax but not html inside javascript
 JSX is not HTML in Js .It is HTML or XML like syntax.
 JS engine doent understads JSX .
 
